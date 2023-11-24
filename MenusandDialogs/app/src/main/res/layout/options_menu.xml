@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Option - 1"
+        android:id="@+id/op1"/>
+    <item
+        android:title="Option With Sub"
+        android:id="@+id/ops">
+        <menu>
+            <item
+                android:title="Sub - 1"
+                android:id="@+id/ops1"/>
+            <item
+        </menu>
+    </item>
+</menu>
